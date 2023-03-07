@@ -1,0 +1,100 @@
+<div class="graphs">
+    <div class="container" id="past-week">
+      <div class="container" id="title">
+          <h3 style="display: inline-block; margin-right: 10px;">Tasks Completed</h3>
+          <small>PAST 7 DAYS</small>
+      </div>
+      <div class="container" id="chart">
+          <canvas id="weekTasks"></canvas>
+      </div>
+    </div>
+    <div class="container mt-3" id="past-month">
+        <div class="container" id="title">
+            <h3 style="display: inline-block; margin-right: 10px;">Tasks Completed</h3>
+            <small>PAST 12 MONTHS</small>
+        </div>
+        <div class="container" id="chart">
+            <canvas id="monthTasks"></canvas>
+        </div>
+    </div>
+    <div class="container mt-3" id="past-month">
+        <div class="container" id="title">
+            <h3 style="display: inline-block; margin-right: 10px;">Tasks Completed</h3>
+            <small>BY YEAR</small>
+        </div>
+        <div class="container" id="chart">
+            <canvas id="yearTasks"></canvas>
+        </div>
+    </div>
+  </div>
+  <div class="right">
+    <div class="pie-chart mb-5">
+      <h3>Tasks Breakdown</h3>
+      <canvas id="pie-chart"></canvas>
+    </div>
+    <div class="container px-0" id="ranking">
+      <h3>Ranking in Company</h3>
+      <table class="table">
+          <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">First</th>
+            <th scope="col">Last</th>
+            <th scope="col">Tasks Completed</th>
+          </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+                <td colspan="4">...</td>
+            </tr>
+          <tr>
+            <th scope="row">#38</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>12342</td>
+          </tr>
+          <tr class="table-active">
+            <th scope="row">#39</th>
+            <td>Jacob</td>
+            <td>Thornton</td>
+            <td>10020</td>
+          </tr>
+          <tr>
+            <th scope="row">#40</th>
+            <td>Larry</td>
+            <td>Steve</td>
+            <td>9987</td>
+          </tr>
+          <tr>
+            <td colspan="4">...</td>
+          </tr>
+          </tbody>
+      </table>
+    </div>
+    <div class="container" id="number-cards">
+      <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+              <h4 class="fw-normal">Total Tasks Assigned</h4>
+          </div>
+          <div class="card-body">
+              <h1 class="card-title" style="text-align: center;">11,123 <small class="text-muted greyed-number">#42</small></h1>
+          </div>
+      </div>
+      <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+              <h4 class="fw-normal">Total Tasks Completed To Date</h4>
+          </div>
+          <div class="card-body">
+              <h1 class="card-title" style="text-align: center;">10,020 <small class="text-muted greyed-number">#39</small></h1>
+          </div>
+      </div>
+      <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+              <h4 class="fw-normal">Tasks Completed On Time</h4>
+          </div>
+          <div class="card-body">
+              <h1 class="card-title" style="text-align: center;">86% <small class="text-muted greyed-number">#23</small></h1>
+          </div>
+      </div>
+    </div>
+</div>

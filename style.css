@@ -1,0 +1,65 @@
+body {
+    background-color: #FAF9F6;
+}
+.sidebar {
+width: 13%;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+}
+
+.main-content {
+margin-left: 13%;
+padding: 30px;
+}
+
+.title {
+padding: 10px;
+margin-top: 0;
+margin-bottom: 20px;
+}
+
+section {
+padding: 25px;
+margin-top: 0;
+margin-left: 10px;
+margin-bottom: 20px;
+}
+
+.graphs {
+width: 65%;
+height: auto;
+float: left;
+}
+
+.right {
+width: 35%;
+height: auto;
+float: right;
+}
+
+.right > * {
+padding: 0;
+width: 100%;
+}
+
+#chart {
+max-height: 25rem;
+}
+
+#pie-chart {
+max-height: 20rem;
+}
+
+.greyed-number {
+font-size: 20px;
+}
+
+.nav-link {
+    color: white;
+}
+
+
+
+
