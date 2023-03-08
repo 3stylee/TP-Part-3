@@ -10,6 +10,7 @@
 </head>
 
 <body>
+  <!-- Sidebar -->
   <div id="sidebarMenu" class="sidebar text-white bg-dark">
     <div class="list-group list-group-flush mx-0 mt-4">
       <img src="Logo.jpg" class="mx-3">
@@ -51,6 +52,7 @@
       </ul>
     </div>
   </div>
+  <!-- Header and nav buttons -->
   <div class="main-content">
     <div class="title">
       <h1>Data Analytics</h1>
@@ -74,6 +76,7 @@
         <label class="btn btn-outline-dark" for="btnradio6">Projects</label>
       </div>
     </div>
+    <!-- Displayed Metrics -->
     <div id="metrics">
     </div>
   </div>
@@ -81,6 +84,8 @@
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="charts.js"></script>
 
+
+  <!-- Script to load content from file based on currently selected nav button -->
   <script>
     // Add event listener to radio buttons
     var radios = document.querySelectorAll('input[name="btnradio"]');
