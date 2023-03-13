@@ -1,12 +1,17 @@
 body {
     background-color: #FAF9F6;
 }
+
 .sidebar {
 width: 14%;
 height: 100vh;
 position: fixed;
 top: 0;
 left: 0;
+}
+
+.nav-link {
+    color: white;
 }
 
 .main-content {
@@ -20,7 +25,8 @@ margin-top: 0;
 margin-bottom: 20px;
 }
 
-section {
+.grey-box {
+background-color:#eee;
 padding: 25px;
 margin-top: 0;
 margin-left: 10px;
@@ -56,11 +62,4 @@ max-height: 20rem;
 .greyed-number {
 font-size: 20px;
 }
-
-.nav-link {
-    color: white;
-}
-
-
-
 
